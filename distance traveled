@@ -1,0 +1,6 @@
+speed = float(input("enter mph: "))
+time = float(input("enter desired time: "))
+
+distance = speed * time
+
+print('The car will travel', distance, 'miles')
