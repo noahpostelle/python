@@ -1,0 +1,26 @@
+# File: lotterynum.py
+# Description: Design a program that generates a seven-digit lottery number. The program should gener- ate seven random numbers, each in the range of 0 through 9, and assign each number to a list element. (Random numbers were discussed in Chapter 5.) Then write another loop that displays the contents of the list.
+# Assignment Name and Number: Lottery Number Generator, 2
+#
+# Name: Noah Postelle
+# GitHub: noahpostelle
+#
+# On my honor, Noah Postelle, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
+
+import random
+
+lottery_num = []
+
+
+for _ in range(7):
+    rand_num = random.randint(0, 9)
+    lottery_num.append(rand_num)
+
+
+print("Lottery Numbers:")
+for number in lottery_num:
+    print(number, end=" ")
+
+print() 

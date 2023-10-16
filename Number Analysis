@@ -1,0 +1,32 @@
+# File: NumberAnalysis
+# Description: Design a program that asks the user to enter a series of 20 numbers. The program should store the numbers in a list then display the following data:
+# The lowest number in the list
+# The highest number in the list
+# The total of the numbers in the list
+# The average of the numbers in the list
+# Assignment Name and Number: Rainfall stats, 3
+#
+# Name: Noah Postelle
+# GitHub: noahpostelle
+#
+# On my honor, Noah Postelle, this programming assignment is my own work
+# and I have not provided this code to any other student.
+numbers = []
+
+for i in range(20):
+    while True:
+        
+            num = float(input(f"Enter number {i + 1}: "))
+            numbers.append(num)
+            break
+        
+lowest = min(numbers)
+highest = max(numbers)
+print("Lowest number: ", lowest)
+print("Highest number: ", highest)
+
+
+total = sum(numbers)
+average = total / len(numbers)
+print("Total of the numbers:", total)
+print("Average of the numbers:", average)
