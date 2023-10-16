@@ -1,0 +1,16 @@
+# File: Falling_Distance.py
+# Description: Write a function named falling_distance that accepts an object’s falling time (in seconds) as an argument. The function should return the distance, in meters, that the object has fallen during that time interval. Write a program that calls the function in a loop that passes the values 1 through 10 as arguments and displays the return value.
+# Assignment Name and Number: Maximum of Two Values, 12
+#
+# Name: Noah Postelle
+# GitHub: noahpostelle
+#
+# On my honor, Noah Postelle, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
+
+time = float(input("Enter a amount of time: "))
+
+distance = int(9.8 * time**2 / 2)  
+
+print("your object fell for", distance, "meters")

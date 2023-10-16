@@ -1,0 +1,23 @@
+# File: Recursive_Multiplicationpy
+# Description: Design a recursive function that accepts two arguments into the parameters x and y. The function should return the value of x times y. 
+
+# Assignment Name and Number: Recursive Multiplicaiton, 2
+#
+# Name: Noah Postelle
+# GitHub: noahpostelle
+#
+# On my honor, Noah Postelle, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
+
+def main(x, y):
+   
+    if x == 1 or y == 1:
+        return x
+    
+    
+    return x + main(x, y - 1)
+
+
+result = main(5, 4)  
+print(result)

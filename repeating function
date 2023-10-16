@@ -1,0 +1,10 @@
+# If n 5 0 then factorial(n) 5 1
+# If n > 0 then factorial(n) 5 n 3 factorial(n − 1)
+
+n = int(input("Enter X"))
+factorial = int(input("Enter y"))
+
+if n == 0:
+    factorial * n == 1
+elif n > 0:
+    factorial * n == n * factorial(n - 1)

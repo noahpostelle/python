@@ -1,0 +1,29 @@
+# File: SeatValue.py
+# Description: There are three seating categories at a stadium. Class A seats cost $20, Class B seats cost $15, and Class C seats cost $10. Write a program that asks how many tickets for each class of seats were sold, then displays the amount of income generated from ticket sales.
+# Assignment Name and Number: Stadium Seating, 7
+#
+# Name: Noah Postelle
+# GitHub: noahpostelle
+#
+# On my honor, Noah Postelle, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
+
+
+
+
+SeatA = float(input("How many tickets sold in Class A: "))
+SeatB = float(input("How many tickets sold in Class B: "))
+SeatC = float(input("How many tickets sold in Class C: "))
+
+Amoney = 20
+Bmoney = 15
+Cmoney = 10
+
+Avalue = Amoney * SeatA
+Bvalue = Bmoney * SeatB
+Cvalue = Cmoney * SeatC
+
+print("The total for class a was: $",Avalue)
+print("The total for class b was: $",Bvalue)
+print("The total for class c was: $",Cvalue)
